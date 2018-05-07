@@ -1,0 +1,3 @@
+role_id,role_name,role_desc,role_flag
+1,管理员,系统所有者,1
+2,金牌会员,A,1

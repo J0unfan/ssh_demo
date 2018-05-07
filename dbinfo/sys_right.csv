@@ -1,0 +1,8 @@
+right_code,right_parent_code,right_type,right_text,right_url,right_tip
+L01,ROOT_MENU,Folder,权限管理,,权限管理
+L0101,L01,Folder,用户管理,,用户管理
+L010101,L0101,Document,添加用户,user.do?o=toAdd,添加用户
+L010102,L0101,Document,查询用户,user.do?o=toList,查询用户
+L0102,L01,Folder,角色管理,,角色管理
+L010201,L0102,Document,添加角色,role.do?o=toAdd,添加角色
+L010202,L0102,Document,查询角色,role.do?o=toList,查询角色

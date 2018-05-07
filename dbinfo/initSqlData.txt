@@ -1,0 +1,33 @@
+-- sys_right --
+"right_code","right_parent_code","right_type","right_text","right_url","right_tip"
+"L01","ROOT_MENU","Folder","权限管理","","权限管理"
+"L0101","L01","Folder","用户管理","","用户管理"
+"L010101","L0101","Document","添加用户","user.do?o=toAdd","添加用户"
+"L010102","L0101","Document","查询用户","user.do?o=toList","查询用户"
+"L0102","L01","Folder","角色管理","","角色管理"
+"L010201","L0102","Document","添加角色","role.do?o=toAdd","添加角色"
+"L010202","L0102","Document","查询角色","role.do?o=toList","查询角色"
+
+-- sys_role --
+"role_id","role_name","role_desc","role_flag"
+1,"管理员","系统所有者",1
+2,"金牌会员","A",1
+
+-- sys_role_right --
+"rf_id","rf_role_id","rf_right_code"
+2,2,"L0101"
+17,1,"L01"
+18,1,"L0101"
+19,1,"L010101"
+20,1,"L010102"
+21,1,"L0102"
+22,1,"L010201"
+23,1,"L010202"
+
+-- sys_user --
+"usr_id","usr_name","usr_password","usr_flag","usr_role_id"
+1,"admin","123",1,1
+
+-- sys_user_role --
+"ur_id","ur_user_id","ur_role_id"
+1,1,1
